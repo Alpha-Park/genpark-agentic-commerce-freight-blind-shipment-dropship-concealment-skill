@@ -1,0 +1,38 @@
+{
+  "name": "genpark-agentic-commerce-freight-blind-shipment-dropship-concealment-skill",
+  "version": "1.0.0",
+  "description": "Dropshipping blind shipment double-bill-of-lading anonymizer: supplier-shipper mask & consignee packing slip sanitization.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "generate_blind_shipment_bol_pair",
+      "description": "Dropshipping blind shipment double-bill-of-lading anonymizer: supplier-shipper mask & consignee packing slip sanitization.",
+      "sample_input": {
+        "actual_manufacturer": {
+          "name": "Shenzhen Precision Plastics Co.",
+          "address": "Baoan District, Shenzhen, CN"
+        },
+        "distributor_broker": {
+          "name": "Apex OmniCommerce LLC",
+          "address": "Wilmington, DE, USA"
+        },
+        "end_customer_consignee": {
+          "name": "Metro Retail Group Store #402",
+          "address": "Dallas, TX, USA"
+        },
+        "items_manifest": [
+          {
+            "sku": "APX-PL-101",
+            "description": "Custom Molded Brackets",
+            "cartons": 24,
+            "weight_lbs": 680
+          }
+        ]
+      }
+    }
+  ]
+}
